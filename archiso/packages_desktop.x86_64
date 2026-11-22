@@ -21,9 +21,10 @@ cachyos-drm-awaiter
 cachyos-fish-config
 cachyos-hello
 cachyos-hooks
-cachyos-kde-settings
+#cachyos-kde-settings
 cachyos-keyring
 cachyos-mirrorlist
+cachyos-niri-noctalia
 cachyos-rate-mirrors
 cachyos-settings
 cachyos-v3-mirrorlist
@@ -52,6 +53,7 @@ f2fs-tools
 fakeroot
 fatresize
 firefox
+fuzzel
 gcc
 ghostty-terminfo
 gpart
@@ -119,6 +121,9 @@ networkmanager
 nfs-utils
 nilfs-utils
 nmap
+noctalia
+noctalia-greeter
+noctalia-shell
 noto-fonts
 noto-fonts-cjk
 nss-mdns
@@ -126,7 +131,7 @@ ntfs-3g
 ntp
 nvidia-utils
 nvme-cli
-occt
+#occt
 open-iscsi
 open-vm-tools
 opendesktop-fonts
@@ -162,6 +167,7 @@ rp-pppoe
 rsync
 rtkit
 rxvt-unicode-terminfo
+plasma-login-manager
 sakura
 sdparm
 sg3_utils
