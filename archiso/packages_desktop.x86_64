@@ -162,6 +162,7 @@ rp-pppoe
 rsync
 rtkit
 rxvt-unicode-terminfo
+sakura
 sdparm
 sg3_utils
 smartmontools
@@ -200,3 +201,7 @@ xdg-utils
 xfsprogs
 xl2tpd
 zfs-utils
+#reaper
+#ninja
+#python-pip
+#qjackctl
