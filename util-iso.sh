@@ -144,6 +144,7 @@ prepare_profile(){
     if [ "$profile" == "desktop" ]; then
         cp ${src_dir}/archiso/packages_desktop.x86_64 ${src_dir}/archiso/packages.x86_64
         ln -sf /usr/lib/systemd/system/plasmalogin.service ${src_dir}/archiso/airootfs/etc/systemd/system/display-manager.service
+        chown -R liveuser:liveuser /home/liveuser
     else
         die "Unknown profile: [%s]" "${profile}"
     fi
