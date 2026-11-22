@@ -1,0 +1,16 @@
+#!/bin/bash
+
+set -x
+
+FNAME=`ls out/desktop/cachyos*.iso`
+ISONAME="$FNAME"
+echo $ISONAME
+
+if [[ "${ISONAME}" == "" ]]; then
+  echo "No .iso file found"
+  exit 0
+fi
+
+dd if=$ISONAME of=/dev/sdb status=progress bs=4M conv=fsync
+sync
+sync
